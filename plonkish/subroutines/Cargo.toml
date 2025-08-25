@@ -1,0 +1,53 @@
+[package]
+name = "subroutines"
+version = "0.1.0"
+edition = "2021"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+deNetwork = { path = "../deNetwork" }
+ark-std = { version = "^0.4.0", default-features = false }
+derivative = { version = "2", features = ["use_core"] }
+displaydoc = { version = "0.2.3", default-features = false }
+enum_dispatch = "0.3.13"
+fixedbitset = "0.5.7"
+itertools = { version = "0.11.0", optional = true }
+rand = "0.8.5"
+rand_chacha = { version = "0.3.0", default-features = false }
+rand_core = "0.6.4"
+serde = { version = "1.0.152", features = ["derive"] }
+strum = "0.26.3"
+num-bigint = "0.4.6"
+num-traits = "0.2.19"
+num-integer = "0.1.46"
+blake2b_simd = "1.0.2"
+sha3 = "0.10.8"
+blake2={version = "0.10.6"}
+poseidon = { git = "https://github.com/han0110/poseidon", branch = "feature/with-spec" }
+crypto-common = "0.1.6"
+typenum = { version = "1.18" } 
+ff = {version = "0.13.0", features = ["derive"]}
+ctr = {git = "https://github.com/RustCrypto/block-modes", rev="78fefba5a80f3d788fd8ba7c4483625148f5dc18"}
+aes = "0.8"
+plonkish_backend = { path = "../plonkish_backend", features = ["benchmark"] }
+rayon = { version = "1.9"}
+bincode = "1.3.3"
+
+
+[[example]]
+name = "dBaseFold"
+path = "dTests/dBaseFold.rs"
+
+
+[features]
+default = ["timer"]
+trace = ["ark-std/print-trace"]
+timer = ["plonkish_backend/timer"]
+print-trace = [ 
+    "plonkish_backend/timer",
+    "ark-std/print-trace"
+    ] 
+rational_sumcheck_piop = []
+
+[dev-dependencies]
+structopt = { version = "0.3" }

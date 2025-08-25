@@ -1,0 +1,35 @@
+nohup target/release/examples/basefold_proof_system > single.text 2>&1 &
+
+nohup target/release/examples/distributed_basefold_proof_system  0 2 24 > 2_24.text 2>&1 &            
+nohup target/release/examples/distributed_basefold_proof_system  1 2 24 > 2_24.text 2>&1 &      
+
+nohup target/release/examples/distributed_basefold_proof_system  0 4 24 > 4_24.text 2>&1 &                
+nohup target/release/examples/distributed_basefold_proof_system  1 4 24 > 4_24.text 2>&1 &       
+nohup target/release/examples/distributed_basefold_proof_system  2 4 24 > 4_24.text 2>&1 &     
+nohup target/release/examples/distributed_basefold_proof_system  3 4 24 > 4_24.text 2>&1 &     
+
+nohup target/release/examples/distributed_basefold_proof_system  0 8 24 > 8_24.text 2>&1 &             
+nohup target/release/examples/distributed_basefold_proof_system  1 8 24 > 8_24.text 2>&1 &     
+nohup target/release/examples/distributed_basefold_proof_system  2 8 24 > 8_24.text 2>&1 &   
+nohup target/release/examples/distributed_basefold_proof_system  3 8 24 > 8_24.text 2>&1 &   
+nohup target/release/examples/distributed_basefold_proof_system  4 8 24 > 8_24.text 2>&1 &               
+nohup target/release/examples/distributed_basefold_proof_system  5 8 24 > 8_24.text 2>&1 &     
+nohup target/release/examples/distributed_basefold_proof_system  6 8 24 > 8_24.text 2>&1 &   
+nohup target/release/examples/distributed_basefold_proof_system  7 8 24 > 8_24.text 2>&1 &   
+
+nohup target/release/examples/distributed_basefold_proof_system  0 16 24 > 16_24.text 2>&1 &              
+nohup target/release/examples/distributed_basefold_proof_system  1 16 24 > 16_24.text 2>&1 &    
+nohup target/release/examples/distributed_basefold_proof_system  2 16 24 > 16_24.text 2>&1 &  
+nohup target/release/examples/distributed_basefold_proof_system  3 16 24 > 16_24.text 2>&1 &  
+nohup target/release/examples/distributed_basefold_proof_system  4 16 24 > 16_24.text 2>&1 &              
+nohup target/release/examples/distributed_basefold_proof_system  5 16 24 > 16_24.text 2>&1 &    
+nohup target/release/examples/distributed_basefold_proof_system  6 16 24 > 16_24.text 2>&1 &  
+nohup target/release/examples/distributed_basefold_proof_system  7 16 24 > 16_24.text 2>&1 &  
+nohup target/release/examples/distributed_basefold_proof_system  8 16 24 > 16_24.text 2>&1 &              
+nohup target/release/examples/distributed_basefold_proof_system  9 16 24 > 16_24.text 2>&1 &    
+nohup target/release/examples/distributed_basefold_proof_system  10 16 24 > 16_24.text 2>&1 &  
+nohup target/release/examples/distributed_basefold_proof_system  11 16 24 > 16_24.text 2>&1 &  
+nohup target/release/examples/distributed_basefold_proof_system  12 16 24 > 16_24.text 2>&1 &              
+nohup target/release/examples/distributed_basefold_proof_system  13 16 24 > 16_24.text 2>&1 &    
+nohup target/release/examples/distributed_basefold_proof_system  14 16 24 > 16_24.text 2>&1 &  
+nohup target/release/examples/distributed_basefold_proof_system  15 16 24 > 16_24.text 2>&1 &  

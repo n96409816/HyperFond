@@ -1,0 +1,2561 @@
+start benchmark on 2^18 vanilla_plonk with hyperplonk
+Start:   hyperplonk_setup-18
+End:     hyperplonk_setup-18 .......................................................370.151ms
+Start:   hyperplonk_preprocess-18
+path ../data/SubProver-18.paras 
+path ../data/Verifier-18.paras 
+End:     hyperplonk_preprocess-18 ..................................................8.766s
+Start:   hyperplonk_prove-18
+··Start:   witness_collector-0
+··End:     witness_collector-0 .....................................................230.568ms
+··Start:   sum_check_prove-18-4
+····Start:   sum_check_prove_round-0
+····End:     sum_check_prove_round-0 ...............................................25.133ms
+····Start:   sum_check_next_round-0
+····End:     sum_check_next_round-0 ................................................11.439ms
+····Start:   sum_check_prove_round-1
+····End:     sum_check_prove_round-1 ...............................................12.431ms
+····Start:   sum_check_next_round-1
+····End:     sum_check_next_round-1 ................................................2.987ms
+····Start:   sum_check_prove_round-2
+····End:     sum_check_prove_round-2 ...............................................6.262ms
+····Start:   sum_check_next_round-2
+····End:     sum_check_next_round-2 ................................................1.553ms
+····Start:   sum_check_prove_round-3
+····End:     sum_check_prove_round-3 ...............................................2.718ms
+····Start:   sum_check_next_round-3
+····End:     sum_check_next_round-3 ................................................830.678µs
+····Start:   sum_check_prove_round-4
+····End:     sum_check_prove_round-4 ...............................................1.501ms
+····Start:   sum_check_next_round-4
+····End:     sum_check_next_round-4 ................................................611.315µs
+····Start:   sum_check_prove_round-5
+····End:     sum_check_prove_round-5 ...............................................753.137µs
+····Start:   sum_check_next_round-5
+····End:     sum_check_next_round-5 ................................................314.861µs
+····Start:   sum_check_prove_round-6
+····End:     sum_check_prove_round-6 ...............................................365.033µs
+····Start:   sum_check_next_round-6
+····End:     sum_check_next_round-6 ................................................232.897µs
+····Start:   sum_check_prove_round-7
+····End:     sum_check_prove_round-7 ...............................................186.523µs
+····Start:   sum_check_next_round-7
+····End:     sum_check_next_round-7 ................................................197.355µs
+····Start:   sum_check_prove_round-8
+····End:     sum_check_prove_round-8 ...............................................106.928µs
+····Start:   sum_check_next_round-8
+····End:     sum_check_next_round-8 ................................................175.544µs
+····Start:   sum_check_prove_round-9
+····End:     sum_check_prove_round-9 ...............................................61.634µs
+····Start:   sum_check_next_round-9
+····End:     sum_check_next_round-9 ................................................160.468µs
+····Start:   sum_check_prove_round-10
+····End:     sum_check_prove_round-10 ..............................................39.013µs
+····Start:   sum_check_next_round-10
+····End:     sum_check_next_round-10 ...............................................146.490µs
+····Start:   sum_check_prove_round-11
+····End:     sum_check_prove_round-11 ..............................................25.812µs
+····Start:   sum_check_next_round-11
+····End:     sum_check_next_round-11 ...............................................148.257µs
+····Start:   sum_check_prove_round-12
+····End:     sum_check_prove_round-12 ..............................................23.080µs
+····Start:   sum_check_next_round-12
+····End:     sum_check_next_round-12 ...............................................8.543µs
+····Start:   sum_check_prove_round-13
+····End:     sum_check_prove_round-13 ..............................................19.026µs
+····Start:   sum_check_next_round-13
+····End:     sum_check_next_round-13 ...............................................5.994µs
+····Start:   sum_check_prove_round-14
+····End:     sum_check_prove_round-14 ..............................................15.292µs
+····Start:   sum_check_next_round-14
+····End:     sum_check_next_round-14 ...............................................4.987µs
+····Start:   sum_check_prove_round-15
+····End:     sum_check_prove_round-15 ..............................................15.376µs
+····Start:   sum_check_next_round-15
+····End:     sum_check_next_round-15 ...............................................4.136µs
+····Start:   sum_check_prove_round-16
+····End:     sum_check_prove_round-16 ..............................................15.368µs
+····Start:   sum_check_next_round-16
+····End:     sum_check_next_round-16 ...............................................4.055µs
+····Start:   sum_check_prove_round-17
+····End:     sum_check_prove_round-17 ..............................................8.989µs
+····Start:   sum_check_next_round-17
+····End:     sum_check_next_round-17 ...............................................3.457µs
+··End:     sum_check_prove-18-4 ....................................................73.829ms
+··Start:   evals-8
+··End:     evals-8 .................................................................2.042µs
+··Start:   Permutation check prove
+fxs.len()3
+····Start:   compute numerators and denominators
+····End:     compute numerators and denominators ...................................5.959ms
+····Start:   Fractional sumcheck prove
+······Start:   sum_check_prove-2-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................37.390µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................6.545µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................19.067µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................3.075µs
+······End:     sum_check_prove-2-2 .................................................146.871µs
+······Start:   sum_check_prove-3-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................22.209µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................5.728µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................9.478µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................2.453µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................10.693µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................2.291µs
+······End:     sum_check_prove-3-2 .................................................142.965µs
+······Start:   sum_check_prove-4-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................20.307µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................5.798µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................15.260µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................2.665µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................15.102µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................2.641µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................7.255µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................2.340µs
+······End:     sum_check_prove-4-2 .................................................199.459µs
+······Start:   sum_check_prove-5-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................16.629µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................5.221µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................14.880µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................2.776µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................14.890µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................2.579µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................8.808µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................2.469µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................7.167µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................2.391µs
+······End:     sum_check_prove-5-2 .................................................199.527µs
+······Start:   sum_check_prove-6-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................15.185µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................5.762µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................14.282µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................3.067µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................13.909µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................2.553µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................15.738µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................2.317µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................12.143µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................2.230µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................8.292µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................2.448µs
+······End:     sum_check_prove-6-2 .................................................264.931µs
+······Start:   sum_check_prove-7-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................17.720µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................38.988µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................14.907µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................3.724µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................19.561µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................3.008µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................14.439µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................2.831µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................16.922µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................2.765µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................16.731µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................2.361µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................6.890µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................2.205µs
+······End:     sum_check_prove-7-2 .................................................357.901µs
+······Start:   sum_check_prove-8-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................26.916µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................49.512µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................21.900µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................51.929µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................16.513µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................4.178µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................15.131µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................3.376µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................15.005µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................2.854µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................15.645µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................2.547µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................10.083µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................2.474µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................7.882µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................2.476µs
+······End:     sum_check_prove-8-2 .................................................510.939µs
+······Start:   sum_check_prove-9-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................36.421µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................39.952µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................22.492µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................39.928µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................14.535µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................37.805µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................13.777µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................3.717µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................13.556µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................2.959µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................15.673µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................3.035µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................13.545µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................2.430µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................8.987µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................2.511µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................8.416µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................2.446µs
+······End:     sum_check_prove-9-2 .................................................558.368µs
+······Start:   sum_check_prove-10-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................37.559µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................49.481µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................26.298µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................39.506µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................20.339µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................37.085µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................14.573µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................31.928µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................15.282µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................3.872µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................12.757µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................2.915µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................12.382µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................2.670µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................14.773µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................2.628µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................7.856µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................2.352µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................6.689µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................2.232µs
+······End:     sum_check_prove-10-2 ................................................654.288µs
+······Start:   sum_check_prove-11-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................57.508µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................51.884µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................32.750µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................39.728µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................23.762µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................43.317µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................19.882µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................36.771µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................16.956µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................38.752µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................14.971µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................3.719µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................12.509µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................3.161µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................17.401µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................2.787µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................14.626µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................2.489µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................11.755µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................2.284µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................6.770µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................2.185µs
+······End:     sum_check_prove-11-2 ................................................831.988µs
+······Start:   sum_check_prove-12-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................134.086µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................64.007µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................50.720µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................43.395µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................34.721µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................43.947µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................23.315µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................40.007µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................16.999µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................39.477µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................16.613µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................34.653µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................13.692µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................3.644µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................13.110µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................2.904µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................13.061µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................2.699µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................14.218µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................2.734µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................9.011µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................2.333µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................7.695µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................2.232µs
+······End:     sum_check_prove-12-2 ................................................1.042ms
+······Start:   sum_check_prove-13-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................222.704µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................98.130µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................102.755µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................58.331µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................53.925µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................52.525µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................36.525µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................37.032µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................25.627µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................38.307µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................19.261µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................41.809µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................16.043µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................27.453µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................13.623µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................3.790µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................13.180µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................3.462µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................15.589µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................2.850µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................13.872µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................2.541µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................12.409µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................2.340µs
+········Start:   sum_check_prove_round-12
+········End:     sum_check_prove_round-12 ..........................................8.167µs
+········Start:   sum_check_next_round-12
+········End:     sum_check_next_round-12 ...........................................2.401µs
+······End:     sum_check_prove-13-2 ................................................1.469ms
+······Start:   sum_check_prove-14-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................434.830µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................187.574µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................206.612µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................124.906µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................136.149µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................60.662µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................53.890µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................39.691µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................44.234µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................47.302µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................26.175µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................37.010µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................19.373µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................33.363µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................19.528µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................43.454µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................13.775µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................3.834µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................16.452µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................3.151µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................14.140µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................2.692µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................12.726µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................2.500µs
+········Start:   sum_check_prove_round-12
+········End:     sum_check_prove_round-12 ..........................................12.035µs
+········Start:   sum_check_next_round-12
+········End:     sum_check_next_round-12 ...........................................2.388µs
+········Start:   sum_check_prove_round-13
+········End:     sum_check_prove_round-13 ..........................................7.398µs
+········Start:   sum_check_next_round-13
+········End:     sum_check_next_round-13 ...........................................2.338µs
+······End:     sum_check_prove-14-2 ................................................2.297ms
+······Start:   sum_check_prove-15-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................752.284µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................281.679µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................306.627µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................125.599µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................165.277µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................80.851µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................85.664µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................59.639µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................53.328µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................49.985µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................33.111µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................37.377µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................24.719µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................37.989µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................17.151µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................40.813µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................17.398µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................34.431µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................14.789µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................3.962µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................12.619µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................3.016µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................16.849µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................2.553µs
+········Start:   sum_check_prove_round-12
+········End:     sum_check_prove_round-12 ..........................................12.887µs
+········Start:   sum_check_next_round-12
+········End:     sum_check_next_round-12 ...........................................2.751µs
+········Start:   sum_check_prove_round-13
+········End:     sum_check_prove_round-13 ..........................................13.082µs
+········Start:   sum_check_next_round-13
+········End:     sum_check_next_round-13 ...........................................2.408µs
+········Start:   sum_check_prove_round-14
+········End:     sum_check_prove_round-14 ..........................................5.966µs
+········Start:   sum_check_next_round-14
+········End:     sum_check_next_round-14 ...........................................2.587µs
+······End:     sum_check_prove-15-2 ................................................3.170ms
+······Start:   sum_check_prove-16-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................1.657ms
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................449.904µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................588.624µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................210.082µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................312.538µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................124.376µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................153.392µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................79.368µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................118.348µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................73.165µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................68.203µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................105.497µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................55.582µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................48.345µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................37.576µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................52.581µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................67.551µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................68.686µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................19.530µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................37.594µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................18.453µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................3.879µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................15.319µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................3.604µs
+········Start:   sum_check_prove_round-12
+········End:     sum_check_prove_round-12 ..........................................12.663µs
+········Start:   sum_check_next_round-12
+········End:     sum_check_next_round-12 ...........................................2.740µs
+········Start:   sum_check_prove_round-13
+········End:     sum_check_prove_round-13 ..........................................14.807µs
+········Start:   sum_check_next_round-13
+········End:     sum_check_next_round-13 ...........................................3.132µs
+········Start:   sum_check_prove_round-14
+········End:     sum_check_prove_round-14 ..........................................8.070µs
+········Start:   sum_check_next_round-14
+········End:     sum_check_next_round-14 ...........................................2.503µs
+········Start:   sum_check_prove_round-15
+········End:     sum_check_prove_round-15 ..........................................11.111µs
+········Start:   sum_check_next_round-15
+········End:     sum_check_next_round-15 ...........................................2.451µs
+······End:     sum_check_prove-16-2 ................................................5.570ms
+······Start:   sum_check_prove-17-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................3.703ms
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................1.312ms
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................1.271ms
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................402.778µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................777.661µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................208.027µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................314.320µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................147.391µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................156.983µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................79.290µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................114.674µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................59.498µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................51.925µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................47.761µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................33.711µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................37.924µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................26.740µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................35.109µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................19.074µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................42.070µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................18.976µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................41.837µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................16.408µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................3.944µs
+········Start:   sum_check_prove_round-12
+········End:     sum_check_prove_round-12 ..........................................16.719µs
+········Start:   sum_check_next_round-12
+········End:     sum_check_next_round-12 ...........................................3.185µs
+········Start:   sum_check_prove_round-13
+········End:     sum_check_prove_round-13 ..........................................24.941µs
+········Start:   sum_check_next_round-13
+········End:     sum_check_next_round-13 ...........................................2.734µs
+········Start:   sum_check_prove_round-14
+········End:     sum_check_prove_round-14 ..........................................12.667µs
+········Start:   sum_check_next_round-14
+········End:     sum_check_next_round-14 ...........................................2.781µs
+········Start:   sum_check_prove_round-15
+········End:     sum_check_prove_round-15 ..........................................20.486µs
+········Start:   sum_check_next_round-15
+········End:     sum_check_next_round-15 ...........................................2.498µs
+········Start:   sum_check_prove_round-16
+········End:     sum_check_prove_round-16 ..........................................8.298µs
+········Start:   sum_check_next_round-16
+········End:     sum_check_next_round-16 ...........................................2.351µs
+······End:     sum_check_prove-17-2 ................................................10.661ms
+······Start:   sum_check_prove-18-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................6.758ms
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................1.899ms
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................3.014ms
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................759.789µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................1.210ms
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................396.608µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................602.732µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................208.102µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................327.015µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................123.536µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................191.157µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................82.495µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................90.946µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................58.008µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................54.446µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................48.184µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................36.513µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................35.787µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................23.682µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................33.292µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................21.490µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................39.672µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................18.637µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................34.360µs
+········Start:   sum_check_prove_round-12
+········End:     sum_check_prove_round-12 ..........................................17.971µs
+········Start:   sum_check_next_round-12
+········End:     sum_check_next_round-12 ...........................................3.851µs
+········Start:   sum_check_prove_round-13
+········End:     sum_check_prove_round-13 ..........................................12.209µs
+········Start:   sum_check_next_round-13
+········End:     sum_check_next_round-13 ...........................................3.079µs
+········Start:   sum_check_prove_round-14
+········End:     sum_check_prove_round-14 ..........................................12.893µs
+········Start:   sum_check_next_round-14
+········End:     sum_check_next_round-14 ...........................................2.824µs
+········Start:   sum_check_prove_round-15
+········End:     sum_check_prove_round-15 ..........................................14.346µs
+········Start:   sum_check_next_round-15
+········End:     sum_check_next_round-15 ...........................................2.759µs
+········Start:   sum_check_prove_round-16
+········End:     sum_check_prove_round-16 ..........................................14.117µs
+········Start:   sum_check_next_round-16
+········End:     sum_check_next_round-16 ...........................................2.458µs
+········Start:   sum_check_prove_round-17
+········End:     sum_check_prove_round-17 ..........................................11.207µs
+········Start:   sum_check_next_round-17
+········End:     sum_check_next_round-17 ...........................................2.422µs
+······End:     sum_check_prove-18-2 ................................................19.812ms
+······Start:   sum_check_prove-19-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................8.638ms
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................3.213ms
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................5.173ms
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................1.271ms
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................2.377ms
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................786.471µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................1.241ms
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................341.580µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................554.604µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................237.126µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................308.638µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................107.873µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................137.358µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................76.039µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................84.633µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................57.630µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................49.372µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................52.456µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................32.233µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................40.183µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................26.385µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................35.849µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................20.077µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................34.668µs
+········Start:   sum_check_prove_round-12
+········End:     sum_check_prove_round-12 ..........................................18.903µs
+········Start:   sum_check_next_round-12
+········End:     sum_check_next_round-12 ...........................................37.794µs
+········Start:   sum_check_prove_round-13
+········End:     sum_check_prove_round-13 ..........................................15.589µs
+········Start:   sum_check_next_round-13
+········End:     sum_check_next_round-13 ...........................................3.625µs
+········Start:   sum_check_prove_round-14
+········End:     sum_check_prove_round-14 ..........................................13.779µs
+········Start:   sum_check_next_round-14
+········End:     sum_check_next_round-14 ...........................................2.966µs
+········Start:   sum_check_prove_round-15
+········End:     sum_check_prove_round-15 ..........................................13.780µs
+········Start:   sum_check_next_round-15
+········End:     sum_check_next_round-15 ...........................................2.673µs
+········Start:   sum_check_prove_round-16
+········End:     sum_check_prove_round-16 ..........................................12.930µs
+········Start:   sum_check_next_round-16
+········End:     sum_check_next_round-16 ...........................................2.586µs
+········Start:   sum_check_prove_round-17
+········End:     sum_check_prove_round-17 ..........................................14.259µs
+········Start:   sum_check_next_round-17
+········End:     sum_check_next_round-17 ...........................................2.568µs
+········Start:   sum_check_prove_round-18
+········End:     sum_check_prove_round-18 ..........................................7.734µs
+········Start:   sum_check_next_round-18
+········End:     sum_check_next_round-18 ...........................................2.392µs
+······End:     sum_check_prove-19-2 ................................................34.693ms
+····End:     Fractional sumcheck prove .............................................186.569ms
+····Start:   compute numerators and denominators
+····End:     compute numerators and denominators ...................................6.523ms
+····Start:   Fractional sumcheck prove
+······Start:   sum_check_prove-2-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................43.946µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................6.938µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................14.047µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................2.732µs
+······End:     sum_check_prove-2-2 .................................................151.869µs
+······Start:   sum_check_prove-3-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................28.157µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................6.126µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................10.728µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................2.489µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................10.887µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................2.484µs
+······End:     sum_check_prove-3-2 .................................................150.753µs
+······Start:   sum_check_prove-4-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................22.359µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................4.760µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................20.470µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................2.429µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................15.793µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................2.827µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................9.567µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................2.362µs
+······End:     sum_check_prove-4-2 .................................................184.517µs
+······Start:   sum_check_prove-5-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................16.208µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................6.398µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................17.713µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................3.253µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................15.513µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................2.705µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................13.675µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................2.448µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................10.853µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................2.407µs
+······End:     sum_check_prove-5-2 .................................................247.498µs
+······Start:   sum_check_prove-6-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................15.138µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................5.752µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................15.518µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................3.161µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................13.967µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................2.703µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................14.555µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................2.677µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................10.119µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................2.371µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................7.264µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................2.314µs
+······End:     sum_check_prove-6-2 .................................................253.815µs
+······Start:   sum_check_prove-7-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................17.449µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................30.673µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................14.575µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................3.975µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................13.045µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................3.213µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................14.319µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................2.692µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................15.278µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................2.680µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................9.254µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................2.446µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................6.956µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................2.226µs
+······End:     sum_check_prove-7-2 .................................................335.618µs
+······Start:   sum_check_prove-8-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................20.519µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................43.931µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................18.622µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................39.513µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................14.748µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................3.703µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................16.129µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................3.067µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................11.650µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................2.626µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................14.600µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................2.407µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................7.835µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................2.275µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................6.243µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................2.235µs
+······End:     sum_check_prove-8-2 .................................................434.578µs
+······Start:   sum_check_prove-9-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................26.488µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................38.821µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................20.818µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................35.474µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................15.340µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................38.584µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................13.373µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................3.717µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................17.375µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................3.067µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................16.098µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................2.667µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................14.132µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................2.632µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................12.650µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................2.439µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................7.859µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................2.274µs
+······End:     sum_check_prove-9-2 .................................................535.847µs
+······Start:   sum_check_prove-10-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................39.237µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................45.734µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................24.831µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................36.169µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................19.292µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................32.779µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................15.669µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................39.257µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................11.750µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................3.760µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................13.670µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................3.086µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................13.648µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................2.711µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................13.136µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................2.352µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................13.912µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................2.308µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................7.585µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................2.441µs
+······End:     sum_check_prove-10-2 ................................................648.984µs
+······Start:   sum_check_prove-11-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................72.852µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................51.860µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................31.006µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................47.260µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................24.461µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................34.641µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................20.829µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................33.615µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................18.255µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................35.105µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................17.089µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................3.741µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................14.076µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................2.900µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................12.997µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................2.559µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................14.331µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................2.361µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................7.697µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................2.600µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................7.188µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................2.284µs
+······End:     sum_check_prove-11-2 ................................................801.146µs
+······Start:   sum_check_prove-12-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................129.502µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................66.805µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................70.761µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................45.440µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................35.538µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................34.120µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................24.318µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................37.978µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................20.126µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................33.118µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................18.291µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................34.953µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................14.219µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................3.917µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................14.308µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................3.121µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................15.088µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................2.672µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................14.550µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................2.645µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................12.774µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................2.401µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................7.207µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................2.543µs
+······End:     sum_check_prove-12-2 ................................................1.415ms
+······Start:   sum_check_prove-13-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................178.279µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................92.418µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................91.383µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................58.212µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................51.113µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................41.712µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................36.307µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................44.554µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................23.936µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................33.393µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................19.239µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................43.494µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................14.711µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................39.114µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................16.087µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................4.063µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................30.520µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................3.769µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................15.452µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................2.992µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................15.869µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................2.540µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................11.792µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................2.363µs
+········Start:   sum_check_prove_round-12
+········End:     sum_check_prove_round-12 ..........................................8.361µs
+········Start:   sum_check_next_round-12
+········End:     sum_check_next_round-12 ...........................................2.460µs
+······End:     sum_check_prove-13-2 ................................................1.401ms
+······Start:   sum_check_prove-14-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................389.197µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................141.105µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................184.668µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................81.641µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................113.586µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................68.389µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................51.539µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................46.702µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................36.081µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................40.305µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................24.327µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................36.180µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................22.661µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................40.602µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................18.597µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................30.176µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................20.163µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................3.817µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................13.918µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................3.280µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................13.335µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................2.697µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................9.845µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................2.551µs
+········Start:   sum_check_prove_round-12
+········End:     sum_check_prove_round-12 ..........................................9.132µs
+········Start:   sum_check_next_round-12
+········End:     sum_check_next_round-12 ...........................................2.412µs
+········Start:   sum_check_prove_round-13
+········End:     sum_check_prove_round-13 ..........................................9.125µs
+········Start:   sum_check_next_round-13
+········End:     sum_check_next_round-13 ...........................................2.347µs
+······End:     sum_check_prove-14-2 ................................................2.057ms
+······Start:   sum_check_prove-15-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................755.710µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................246.149µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................282.677µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................121.976µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................151.359µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................79.899µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................83.241µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................58.992µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................53.599µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................42.160µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................35.615µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................36.870µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................25.988µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................39.351µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................19.618µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................41.139µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................15.120µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................37.954µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................13.599µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................3.855µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................12.326µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................3.010µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................13.176µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................2.802µs
+········Start:   sum_check_prove_round-12
+········End:     sum_check_prove_round-12 ..........................................14.160µs
+········Start:   sum_check_next_round-12
+········End:     sum_check_next_round-12 ...........................................2.484µs
+········Start:   sum_check_prove_round-13
+········End:     sum_check_prove_round-13 ..........................................12.131µs
+········Start:   sum_check_next_round-13
+········End:     sum_check_next_round-13 ...........................................2.346µs
+········Start:   sum_check_prove_round-14
+········End:     sum_check_prove_round-14 ..........................................6.834µs
+········Start:   sum_check_next_round-14
+········End:     sum_check_next_round-14 ...........................................2.333µs
+······End:     sum_check_prove-15-2 ................................................3.007ms
+······Start:   sum_check_prove-16-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................1.665ms
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................463.365µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................609.329µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................212.061µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................299.310µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................123.888µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................185.494µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................78.164µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................91.937µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................92.937µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................103.808µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................72.047µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................51.525µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................37.221µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................43.775µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................42.891µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................43.709µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................36.738µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................17.175µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................42.386µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................16.427µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................4.464µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................14.956µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................3.065µs
+········Start:   sum_check_prove_round-12
+········End:     sum_check_prove_round-12 ..........................................13.460µs
+········Start:   sum_check_next_round-12
+········End:     sum_check_next_round-12 ...........................................2.846µs
+········Start:   sum_check_prove_round-13
+········End:     sum_check_prove_round-13 ..........................................15.526µs
+········Start:   sum_check_next_round-13
+········End:     sum_check_next_round-13 ...........................................3.039µs
+········Start:   sum_check_prove_round-14
+········End:     sum_check_prove_round-14 ..........................................14.528µs
+········Start:   sum_check_next_round-14
+········End:     sum_check_next_round-14 ...........................................2.494µs
+········Start:   sum_check_prove_round-15
+········End:     sum_check_prove_round-15 ..........................................9.844µs
+········Start:   sum_check_next_round-15
+········End:     sum_check_next_round-15 ...........................................2.453µs
+······End:     sum_check_prove-16-2 ................................................5.594ms
+······Start:   sum_check_prove-17-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................3.743ms
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................915.070µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................1.548ms
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................397.316µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................614.601µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................207.412µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................305.812µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................121.907µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................223.293µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................131.202µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................201.708µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................103.094µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................51.198µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................50.191µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................32.479µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................44.801µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................26.559µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................37.769µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................21.075µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................39.153µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................18.926µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................32.221µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................13.443µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................3.830µs
+········Start:   sum_check_prove_round-12
+········End:     sum_check_prove_round-12 ..........................................15.558µs
+········Start:   sum_check_next_round-12
+········End:     sum_check_next_round-12 ...........................................3.256µs
+········Start:   sum_check_prove_round-13
+········End:     sum_check_prove_round-13 ..........................................13.989µs
+········Start:   sum_check_next_round-13
+········End:     sum_check_next_round-13 ...........................................2.803µs
+········Start:   sum_check_prove_round-14
+········End:     sum_check_prove_round-14 ..........................................15.561µs
+········Start:   sum_check_next_round-14
+········End:     sum_check_next_round-14 ...........................................2.697µs
+········Start:   sum_check_prove_round-15
+········End:     sum_check_prove_round-15 ..........................................8.118µs
+········Start:   sum_check_next_round-15
+········End:     sum_check_next_round-15 ...........................................2.519µs
+········Start:   sum_check_prove_round-16
+········End:     sum_check_prove_round-16 ..........................................7.007µs
+········Start:   sum_check_next_round-16
+········End:     sum_check_next_round-16 ...........................................2.398µs
+······End:     sum_check_prove-17-2 ................................................11.031ms
+······Start:   sum_check_prove-18-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................6.985ms
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................2.656ms
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................3.135ms
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................1.077ms
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................1.668ms
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................499.773µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................604.189µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................217.547µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................303.367µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................124.217µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................165.986µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................79.773µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................106.872µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................57.883µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................64.478µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................42.855µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................33.727µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................37.067µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................25.005µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................37.542µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................21.274µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................35.621µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................19.184µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................35.922µs
+········Start:   sum_check_prove_round-12
+········End:     sum_check_prove_round-12 ..........................................15.399µs
+········Start:   sum_check_next_round-12
+········End:     sum_check_next_round-12 ...........................................3.951µs
+········Start:   sum_check_prove_round-13
+········End:     sum_check_prove_round-13 ..........................................12.290µs
+········Start:   sum_check_next_round-13
+········End:     sum_check_next_round-13 ...........................................3.101µs
+········Start:   sum_check_prove_round-14
+········End:     sum_check_prove_round-14 ..........................................12.733µs
+········Start:   sum_check_next_round-14
+········End:     sum_check_next_round-14 ...........................................2.810µs
+········Start:   sum_check_prove_round-15
+········End:     sum_check_prove_round-15 ..........................................14.158µs
+········Start:   sum_check_next_round-15
+········End:     sum_check_next_round-15 ...........................................2.651µs
+········Start:   sum_check_prove_round-16
+········End:     sum_check_prove_round-16 ..........................................13.705µs
+········Start:   sum_check_next_round-16
+········End:     sum_check_next_round-16 ...........................................2.641µs
+········Start:   sum_check_prove_round-17
+········End:     sum_check_prove_round-17 ..........................................8.574µs
+········Start:   sum_check_next_round-17
+········End:     sum_check_next_round-17 ...........................................2.387µs
+······End:     sum_check_prove-18-2 ................................................22.051ms
+······Start:   sum_check_prove-19-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................14.668ms
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................3.493ms
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................4.688ms
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................1.551ms
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................2.869ms
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................683.838µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................1.109ms
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................326.662µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................750.517µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................178.797µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................370.569µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................105.634µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................151.735µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................70.852µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................119.258µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................58.935µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................46.831µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................40.026µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................33.023µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................42.383µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................22.805µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................40.688µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................16.698µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................37.243µs
+········Start:   sum_check_prove_round-12
+········End:     sum_check_prove_round-12 ..........................................19.230µs
+········Start:   sum_check_next_round-12
+········End:     sum_check_next_round-12 ...........................................38.625µs
+········Start:   sum_check_prove_round-13
+········End:     sum_check_prove_round-13 ..........................................13.325µs
+········Start:   sum_check_next_round-13
+········End:     sum_check_next_round-13 ...........................................3.595µs
+········Start:   sum_check_prove_round-14
+········End:     sum_check_prove_round-14 ..........................................12.334µs
+········Start:   sum_check_next_round-14
+········End:     sum_check_next_round-14 ...........................................3.144µs
+········Start:   sum_check_prove_round-15
+········End:     sum_check_prove_round-15 ..........................................13.915µs
+········Start:   sum_check_next_round-15
+········End:     sum_check_next_round-15 ...........................................2.655µs
+········Start:   sum_check_prove_round-16
+········End:     sum_check_prove_round-16 ..........................................9.471µs
+········Start:   sum_check_next_round-16
+········End:     sum_check_next_round-16 ...........................................2.422µs
+········Start:   sum_check_prove_round-17
+········End:     sum_check_prove_round-17 ..........................................14.335µs
+········Start:   sum_check_next_round-17
+········End:     sum_check_next_round-17 ...........................................2.902µs
+········Start:   sum_check_prove_round-18
+········End:     sum_check_prove_round-18 ..........................................7.518µs
+········Start:   sum_check_next_round-18
+········End:     sum_check_next_round-18 ...........................................2.420µs
+······End:     sum_check_prove-19-2 ................................................42.685ms
+····End:     Fractional sumcheck prove .............................................166.249ms
+····Start:   compute numerators and denominators
+····End:     compute numerators and denominators ...................................6.138ms
+····Start:   Fractional sumcheck prove
+······Start:   sum_check_prove-2-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................46.664µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................6.735µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................18.562µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................3.072µs
+······End:     sum_check_prove-2-2 .................................................155.156µs
+······Start:   sum_check_prove-3-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................20.993µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................4.751µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................15.906µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................2.410µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................12.257µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................2.199µs
+······End:     sum_check_prove-3-2 .................................................138.935µs
+······Start:   sum_check_prove-4-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................16.455µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................5.682µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................15.548µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................2.720µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................15.102µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................2.438µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................9.372µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................2.512µs
+······End:     sum_check_prove-4-2 .................................................181.400µs
+······Start:   sum_check_prove-5-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................15.895µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................6.463µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................16.763µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................2.743µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................22.230µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................2.622µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................8.051µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................2.367µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................9.300µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................2.574µs
+······End:     sum_check_prove-5-2 .................................................224.251µs
+······Start:   sum_check_prove-6-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................17.186µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................5.815µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................21.605µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................3.534µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................32.958µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................3.196µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................19.060µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................2.492µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................17.408µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................2.509µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................10.698µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................2.967µs
+······End:     sum_check_prove-6-2 .................................................308.422µs
+······Start:   sum_check_prove-7-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................21.614µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................39.222µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................13.622µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................4.019µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................12.678µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................3.102µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................13.710µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................3.009µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................16.491µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................2.454µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................13.038µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................2.487µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................8.356µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................2.396µs
+······End:     sum_check_prove-7-2 .................................................357.149µs
+······Start:   sum_check_prove-8-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................23.622µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................43.675µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................17.113µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................31.571µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................19.369µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................4.015µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................17.156µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................3.129µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................14.951µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................2.615µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................12.150µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................2.412µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................13.938µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................2.449µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................8.249µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................2.319µs
+······End:     sum_check_prove-8-2 .................................................460.887µs
+······Start:   sum_check_prove-9-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................30.660µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................36.595µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................19.932µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................32.227µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................12.395µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................35.400µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................13.916µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................3.676µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................11.938µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................3.061µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................16.319µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................2.770µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................15.317µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................2.635µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................8.111µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................2.358µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................7.926µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................2.360µs
+······End:     sum_check_prove-9-2 .................................................524.360µs
+······Start:   sum_check_prove-10-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................50.999µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................42.356µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................25.195µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................36.236µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................19.829µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................38.579µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................15.119µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................41.875µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................15.176µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................3.678µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................12.994µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................3.150µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................12.408µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................2.578µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................13.880µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................2.527µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................12.788µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................2.378µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................8.811µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................2.231µs
+······End:     sum_check_prove-10-2 ................................................665.867µs
+······Start:   sum_check_prove-11-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................60.499µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................48.705µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................36.063µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................40.684µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................24.979µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................40.606µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................19.580µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................39.192µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................19.890µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................28.481µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................13.680µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................3.976µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................12.347µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................3.091µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................13.600µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................2.681µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................10.115µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................2.417µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................8.757µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................2.308µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................7.413µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................2.379µs
+······End:     sum_check_prove-11-2 ................................................803.287µs
+······Start:   sum_check_prove-12-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................112.165µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................68.404µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................57.402µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................38.847µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................34.442µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................43.011µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................25.802µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................35.664µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................21.716µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................30.938µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................19.014µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................28.128µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................17.952µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................3.708µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................12.372µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................2.921µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................13.188µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................2.823µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................13.938µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................2.460µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................14.917µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................2.388µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................7.211µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................2.310µs
+······End:     sum_check_prove-12-2 ................................................1.032ms
+······Start:   sum_check_prove-13-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................279.098µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................121.498µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................90.022µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................60.773µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................52.608µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................52.483µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................32.980µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................44.160µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................26.390µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................37.006µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................22.431µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................39.087µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................14.459µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................39.454µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................16.109µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................3.975µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................17.863µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................3.211µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................14.214µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................2.754µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................10.405µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................2.469µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................14.282µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................2.298µs
+········Start:   sum_check_prove_round-12
+········End:     sum_check_prove_round-12 ..........................................7.169µs
+········Start:   sum_check_next_round-12
+········End:     sum_check_next_round-12 ...........................................2.423µs
+······End:     sum_check_prove-13-2 ................................................2.793ms
+······Start:   sum_check_prove-14-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................428.166µs
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................150.074µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................170.960µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................84.107µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................103.911µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................61.194µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................54.060µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................45.375µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................35.141µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................39.116µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................25.469µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................45.487µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................18.315µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................37.419µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................19.237µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................35.114µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................14.987µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................3.866µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................13.540µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................3.230µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................15.716µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................2.705µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................14.018µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................2.422µs
+········Start:   sum_check_prove_round-12
+········End:     sum_check_prove_round-12 ..........................................11.726µs
+········Start:   sum_check_next_round-12
+········End:     sum_check_next_round-12 ...........................................2.402µs
+········Start:   sum_check_prove_round-13
+········End:     sum_check_prove_round-13 ..........................................7.006µs
+········Start:   sum_check_next_round-13
+········End:     sum_check_next_round-13 ...........................................2.382µs
+······End:     sum_check_prove-14-2 ................................................2.090ms
+······Start:   sum_check_prove-15-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................1.121ms
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................256.273µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................311.417µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................127.881µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................166.769µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................83.834µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................107.550µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................59.270µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................64.260µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................42.817µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................33.667µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................38.320µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................23.911µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................33.616µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................16.428µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................37.788µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................19.139µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................37.456µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................13.707µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................3.593µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................14.656µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................3.037µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................12.344µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................2.831µs
+········Start:   sum_check_prove_round-12
+········End:     sum_check_prove_round-12 ..........................................9.248µs
+········Start:   sum_check_next_round-12
+········End:     sum_check_next_round-12 ...........................................2.543µs
+········Start:   sum_check_prove_round-13
+········End:     sum_check_prove_round-13 ..........................................12.120µs
+········Start:   sum_check_next_round-13
+········End:     sum_check_next_round-13 ...........................................2.469µs
+········Start:   sum_check_prove_round-14
+········End:     sum_check_prove_round-14 ..........................................10.200µs
+········Start:   sum_check_next_round-14
+········End:     sum_check_next_round-14 ...........................................2.324µs
+······End:     sum_check_prove-15-2 ................................................3.477ms
+······Start:   sum_check_prove-16-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................1.407ms
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................480.215µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................531.027µs
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................205.613µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................306.336µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................126.778µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................147.661µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................144.017µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................136.030µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................98.008µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................88.449µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................65.440µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................41.537µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................43.835µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................28.173µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................41.826µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................22.722µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................41.230µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................20.234µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................42.230µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................14.196µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................3.798µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................14.401µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................3.598µs
+········Start:   sum_check_prove_round-12
+········End:     sum_check_prove_round-12 ..........................................19.500µs
+········Start:   sum_check_next_round-12
+········End:     sum_check_next_round-12 ...........................................2.832µs
+········Start:   sum_check_prove_round-13
+········End:     sum_check_prove_round-13 ..........................................15.351µs
+········Start:   sum_check_next_round-13
+········End:     sum_check_next_round-13 ...........................................2.521µs
+········Start:   sum_check_prove_round-14
+········End:     sum_check_prove_round-14 ..........................................14.069µs
+········Start:   sum_check_next_round-14
+········End:     sum_check_next_round-14 ...........................................2.465µs
+········Start:   sum_check_prove_round-15
+········End:     sum_check_prove_round-15 ..........................................8.004µs
+········Start:   sum_check_next_round-15
+········End:     sum_check_next_round-15 ...........................................2.507µs
+······End:     sum_check_prove-16-2 ................................................5.229ms
+······Start:   sum_check_prove-17-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................2.784ms
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................954.845µs
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................1.208ms
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................387.165µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................625.697µs
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................210.692µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................312.506µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................123.732µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................150.889µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................83.421µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................90.102µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................88.804µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................119.168µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................71.275µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................53.564µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................47.290µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................53.645µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................34.558µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................41.162µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................40.585µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................20.225µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................36.176µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................14.530µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................3.696µs
+········Start:   sum_check_prove_round-12
+········End:     sum_check_prove_round-12 ..........................................12.773µs
+········Start:   sum_check_next_round-12
+········End:     sum_check_next_round-12 ...........................................3.188µs
+········Start:   sum_check_prove_round-13
+········End:     sum_check_prove_round-13 ..........................................17.088µs
+········Start:   sum_check_next_round-13
+········End:     sum_check_next_round-13 ...........................................3.182µs
+········Start:   sum_check_prove_round-14
+········End:     sum_check_prove_round-14 ..........................................9.949µs
+········Start:   sum_check_next_round-14
+········End:     sum_check_next_round-14 ...........................................2.509µs
+········Start:   sum_check_prove_round-15
+········End:     sum_check_prove_round-15 ..........................................13.721µs
+········Start:   sum_check_next_round-15
+········End:     sum_check_next_round-15 ...........................................2.480µs
+········Start:   sum_check_prove_round-16
+········End:     sum_check_prove_round-16 ..........................................7.357µs
+········Start:   sum_check_next_round-16
+········End:     sum_check_next_round-16 ...........................................2.315µs
+······End:     sum_check_prove-17-2 ................................................9.495ms
+······Start:   sum_check_prove-18-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................8.145ms
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................1.889ms
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................2.634ms
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................746.624µs
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................1.454ms
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................399.490µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................682.726µs
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................281.891µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................365.275µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................123.748µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................166.982µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................83.088µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................100.234µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................59.346µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................60.422µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................72.820µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................69.005µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................58.381µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................38.832µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................41.132µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................38.847µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................31.837µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................22.079µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................32.405µs
+········Start:   sum_check_prove_round-12
+········End:     sum_check_prove_round-12 ..........................................29.791µs
+········Start:   sum_check_next_round-12
+········End:     sum_check_next_round-12 ...........................................4.227µs
+········Start:   sum_check_prove_round-13
+········End:     sum_check_prove_round-13 ..........................................14.957µs
+········Start:   sum_check_next_round-13
+········End:     sum_check_next_round-13 ...........................................2.896µs
+········Start:   sum_check_prove_round-14
+········End:     sum_check_prove_round-14 ..........................................16.534µs
+········Start:   sum_check_next_round-14
+········End:     sum_check_next_round-14 ...........................................3.326µs
+········Start:   sum_check_prove_round-15
+········End:     sum_check_prove_round-15 ..........................................16.830µs
+········Start:   sum_check_next_round-15
+········End:     sum_check_next_round-15 ...........................................2.575µs
+········Start:   sum_check_prove_round-16
+········End:     sum_check_prove_round-16 ..........................................15.745µs
+········Start:   sum_check_next_round-16
+········End:     sum_check_next_round-16 ...........................................2.403µs
+········Start:   sum_check_prove_round-17
+········End:     sum_check_prove_round-17 ..........................................9.313µs
+········Start:   sum_check_next_round-17
+········End:     sum_check_next_round-17 ...........................................2.358µs
+······End:     sum_check_prove-18-2 ................................................21.220ms
+······Start:   sum_check_prove-19-2
+········Start:   sum_check_prove_round-0
+········End:     sum_check_prove_round-0 ...........................................10.558ms
+········Start:   sum_check_next_round-0
+········End:     sum_check_next_round-0 ............................................3.626ms
+········Start:   sum_check_prove_round-1
+········End:     sum_check_prove_round-1 ...........................................4.847ms
+········Start:   sum_check_next_round-1
+········End:     sum_check_next_round-1 ............................................1.291ms
+········Start:   sum_check_prove_round-2
+········End:     sum_check_prove_round-2 ...........................................2.332ms
+········Start:   sum_check_next_round-2
+········End:     sum_check_next_round-2 ............................................780.622µs
+········Start:   sum_check_prove_round-3
+········End:     sum_check_prove_round-3 ...........................................1.120ms
+········Start:   sum_check_next_round-3
+········End:     sum_check_next_round-3 ............................................381.413µs
+········Start:   sum_check_prove_round-4
+········End:     sum_check_prove_round-4 ...........................................644.797µs
+········Start:   sum_check_next_round-4
+········End:     sum_check_next_round-4 ............................................178.386µs
+········Start:   sum_check_prove_round-5
+········End:     sum_check_prove_round-5 ...........................................268.608µs
+········Start:   sum_check_next_round-5
+········End:     sum_check_next_round-5 ............................................108.761µs
+········Start:   sum_check_prove_round-6
+········End:     sum_check_prove_round-6 ...........................................159.067µs
+········Start:   sum_check_next_round-6
+········End:     sum_check_next_round-6 ............................................75.088µs
+········Start:   sum_check_prove_round-7
+········End:     sum_check_prove_round-7 ...........................................91.010µs
+········Start:   sum_check_next_round-7
+········End:     sum_check_next_round-7 ............................................54.790µs
+········Start:   sum_check_prove_round-8
+········End:     sum_check_prove_round-8 ...........................................50.815µs
+········Start:   sum_check_next_round-8
+········End:     sum_check_next_round-8 ............................................42.642µs
+········Start:   sum_check_prove_round-9
+········End:     sum_check_prove_round-9 ...........................................30.832µs
+········Start:   sum_check_next_round-9
+········End:     sum_check_next_round-9 ............................................41.981µs
+········Start:   sum_check_prove_round-10
+········End:     sum_check_prove_round-10 ..........................................25.454µs
+········Start:   sum_check_next_round-10
+········End:     sum_check_next_round-10 ...........................................45.409µs
+········Start:   sum_check_prove_round-11
+········End:     sum_check_prove_round-11 ..........................................20.936µs
+········Start:   sum_check_next_round-11
+········End:     sum_check_next_round-11 ...........................................36.135µs
+········Start:   sum_check_prove_round-12
+········End:     sum_check_prove_round-12 ..........................................15.919µs
+········Start:   sum_check_next_round-12
+········End:     sum_check_next_round-12 ...........................................36.109µs
+········Start:   sum_check_prove_round-13
+········End:     sum_check_prove_round-13 ..........................................19.014µs
+········Start:   sum_check_next_round-13
+········End:     sum_check_next_round-13 ...........................................3.443µs
+········Start:   sum_check_prove_round-14
+········End:     sum_check_prove_round-14 ..........................................23.388µs
+········Start:   sum_check_next_round-14
+········End:     sum_check_next_round-14 ...........................................2.938µs
+········Start:   sum_check_prove_round-15
+········End:     sum_check_prove_round-15 ..........................................14.463µs
+········Start:   sum_check_next_round-15
+········End:     sum_check_next_round-15 ...........................................3.251µs
+········Start:   sum_check_prove_round-16
+········End:     sum_check_prove_round-16 ..........................................18.559µs
+········Start:   sum_check_next_round-16
+········End:     sum_check_next_round-16 ...........................................2.807µs
+········Start:   sum_check_prove_round-17
+········End:     sum_check_prove_round-17 ..........................................16.940µs
+········Start:   sum_check_next_round-17
+········End:     sum_check_next_round-17 ...........................................2.477µs
+········Start:   sum_check_prove_round-18
+········End:     sum_check_prove_round-18 ..........................................7.848µs
+········Start:   sum_check_next_round-18
+········End:     sum_check_next_round-18 ...........................................2.289µs
+······End:     sum_check_prove-19-2 ................................................34.809ms
+····End:     Fractional sumcheck prove .............................................161.175ms
+··End:     Permutation check prove .................................................605.136ms
+··Start:   pcs_batch_open-8
+····Start:   sum_check_prove-18-2
+······Start:   sum_check_prove_round-0
+······End:     sum_check_prove_round-0 .............................................1.540ms
+······Start:   sum_check_next_round-0
+······End:     sum_check_next_round-0 ..............................................2.369ms
+······Start:   sum_check_prove_round-1
+······End:     sum_check_prove_round-1 .............................................913.391µs
+······Start:   sum_check_next_round-1
+······End:     sum_check_next_round-1 ..............................................524.890µs
+······Start:   sum_check_prove_round-2
+······End:     sum_check_prove_round-2 .............................................381.628µs
+······Start:   sum_check_next_round-2
+······End:     sum_check_next_round-2 ..............................................255.720µs
+······Start:   sum_check_prove_round-3
+······End:     sum_check_prove_round-3 .............................................183.977µs
+······Start:   sum_check_next_round-3
+······End:     sum_check_next_round-3 ..............................................137.437µs
+······Start:   sum_check_prove_round-4
+······End:     sum_check_prove_round-4 .............................................101.862µs
+······Start:   sum_check_next_round-4
+······End:     sum_check_next_round-4 ..............................................79.394µs
+······Start:   sum_check_prove_round-5
+······End:     sum_check_prove_round-5 .............................................60.691µs
+······Start:   sum_check_next_round-5
+······End:     sum_check_next_round-5 ..............................................54.157µs
+······Start:   sum_check_prove_round-6
+······End:     sum_check_prove_round-6 .............................................35.762µs
+······Start:   sum_check_next_round-6
+······End:     sum_check_next_round-6 ..............................................37.336µs
+······Start:   sum_check_prove_round-7
+······End:     sum_check_prove_round-7 .............................................23.310µs
+······Start:   sum_check_next_round-7
+······End:     sum_check_next_round-7 ..............................................35.327µs
+······Start:   sum_check_prove_round-8
+······End:     sum_check_prove_round-8 .............................................19.722µs
+······Start:   sum_check_next_round-8
+······End:     sum_check_next_round-8 ..............................................22.504µs
+······Start:   sum_check_prove_round-9
+······End:     sum_check_prove_round-9 .............................................17.123µs
+······Start:   sum_check_next_round-9
+······End:     sum_check_next_round-9 ..............................................24.641µs
+······Start:   sum_check_prove_round-10
+······End:     sum_check_prove_round-10 ............................................16.382µs
+······Start:   sum_check_next_round-10
+······End:     sum_check_next_round-10 .............................................21.884µs
+······Start:   sum_check_prove_round-11
+······End:     sum_check_prove_round-11 ............................................9.489µs
+······Start:   sum_check_next_round-11
+······End:     sum_check_next_round-11 .............................................25.030µs
+······Start:   sum_check_prove_round-12
+······End:     sum_check_prove_round-12 ............................................14.530µs
+······Start:   sum_check_next_round-12
+······End:     sum_check_next_round-12 .............................................1.682µs
+······Start:   sum_check_prove_round-13
+······End:     sum_check_prove_round-13 ............................................10.862µs
+······Start:   sum_check_next_round-13
+······End:     sum_check_next_round-13 .............................................1.232µs
+······Start:   sum_check_prove_round-14
+······End:     sum_check_prove_round-14 ............................................9.213µs
+······Start:   sum_check_next_round-14
+······End:     sum_check_next_round-14 .............................................922ns
+······Start:   sum_check_prove_round-15
+······End:     sum_check_prove_round-15 ............................................835ns
+······Start:   sum_check_next_round-15
+······End:     sum_check_next_round-15 .............................................624ns
+······Start:   sum_check_prove_round-16
+······End:     sum_check_prove_round-16 ............................................598ns
+······Start:   sum_check_next_round-16
+······End:     sum_check_next_round-16 .............................................681ns
+······Start:   sum_check_prove_round-17
+······End:     sum_check_prove_round-17 ............................................555ns
+······Start:   sum_check_next_round-17
+······End:     sum_check_next_round-17 .............................................549ns
+····End:     sum_check_prove-18-2 ..................................................14.311ms
+··End:     pcs_batch_open-8 ........................................................525.679ms
+proving for 18 variables: 2.386331338s
+··Start:   hyperplonk_verify-18
+num_instance3
+VERIFY
+verifiy for 18 variables: 10.120772ms
+Err(InvalidSumcheck("Expect sum GoldilocksMont(0x0000000000000000e918281509c92baf) but get GoldilocksMont(0x0000000000000000f4d200e98f5e5182)"))
+··End:     hyperplonk_verify-18 ....................................................10.633ms
+End:     hyperplonk_prove-18 .......................................................3.745s
