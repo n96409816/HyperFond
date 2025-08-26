@@ -3,7 +3,7 @@ This is the artifact for the paper HyperFond: A Transparent and Post-Quantum Dis
 
 ## Acknowledgment
 
-We would like to acknowledge that our implementation is based on the base fold repository (https://github.com/hadasz/plonkish_basefold). Specifically, we forked these repositories and built upon them for our development work. 
+We would like to acknowledge that our implementation is based on the base fold repository (https://github.com/hadasz/plonkish_basefold) and hyperplonk repository (https://github.com/EspressoSystems/hyperplonk). Specifically, we forked these repositories and built upon them for our development work. 
 
 ## Installation
 We recommend using Ubuntu for running the experiments.
