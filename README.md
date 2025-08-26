@@ -36,4 +36,4 @@ Note:
   - Run for each party (0-3)
   `target/release/examples/distributed_basefold_proof_system {party_number} 4 22`  
 ## Remark
-This implementation is a preliminary prototype to evaluate our solution's efficiency and is not yet ready for productive use.
+This implementation is a preliminary prototype to evaluate our solution's performance and is not yet ready for productive use.
